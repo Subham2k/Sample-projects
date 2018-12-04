@@ -1,0 +1,272 @@
+
+	body
+	{
+	font-family:cursive;
+	text-align:center;
+	}
+	
+	*{
+		border-sizin:border-box;
+		transition: all ease-in-out 250ms;
+	}
+	
+	header
+	{
+	position:absolute;
+	margin-top:1em;
+	left:0;
+	right:0;
+	margin:1em;
+	}
+	
+	.container
+	{
+		width:95%; 
+		max-width:70em;
+		margin:o auto;
+	}
+	
+	.clearfix::after,
+	.section::after,
+	footer::after{
+		content:'';
+		display:block;
+		clear:both;
+	}
+	
+	
+	@media(min-width: 60rem){
+		.logo{
+			float:left;
+		}
+	}
+	
+	
+	h1{
+		font-weight:300;
+		font-size:1.7rem;
+		margin:0 auto;
+	}
+	
+	p{
+		margin:0;
+		line-height:1.5;
+	}
+	
+	nav{
+		background:rgba(0,0,0,0.50);
+	}
+	
+	img
+	{
+	max-width:100%;
+	height:auto;
+	}
+	
+	@media(min-width: 60rem){
+		.title{
+			font-size: 3.7rem;
+		}
+	}
+	
+	.home-hero
+	{
+		background-image:url(https://static.boredpanda.com/blog/wp-content/uploads/2015/10/comp_DSC06310b-Fertig1-ohne-Logo__880.jpg);
+		background-attachment: fixed;
+		background-size:cover;
+		background-position:center;
+		padding: 10em 0;
+	}
+	
+	@media(min-width: 60rem){
+		.home-hero{
+			height:100vh;
+			padding-top:35vh;
+		}
+	}
+	
+	.title{
+		font-size:2.5rem;
+		margin-bottom:1.5em;
+		margin-top:5em;
+	}
+	
+	.inside-title
+	{
+		font-weight:300;
+		display:block;
+		font-size: .6em;
+	}
+	
+	.home-about-textbox{
+		
+		background-color:#232323;
+		position:relative;
+		padding:4em;
+		width:90vw;
+		margin-left: -2.5%;
+		outline: 2px solid #00ff6c;
+		outline-offset: -2.5em;
+		color:#FFF;
+	}
+	
+	.mustshift{
+		color:#00ff6c;
+		position:absolute;
+		left:50%;
+		transform:translateX(-50%);
+		top: .75em;
+		background:#232323;
+		padding:0 .145em;
+	}
+	
+	
+
+	
+	@media(min-width: 25rem){
+		.h1{
+			font-size: 2rem;
+		}
+		
+		.home-about{
+		
+		background-image:url(https://i2.wp.com/blog.themancompany.com/wp-content/uploads/2016/01/Photography-Camera-HD-Wallpaper1-1.jpg?resize=1140%2C713);
+		padding-bottom:10em; 
+		background-repeat:no-repeat;
+	}
+	
+		
+		.home-about-textbox{		
+		width:40%;	
+		padding: 7em;
+		
+		margin-left:-2.5em;
+		text-align:left;
+		top:-5em;
+		box-shadow: 0 0 3em 0 rgba(0,0,0,5);
+	}
+		
+		.mustshift{
+			top: .6em;
+			
+		}
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	.portfolio{
+		margin:3em 0 0;
+	}
+	
+	
+	.port-item
+	{
+	margin:0;
+	position:relative;
+	}
+	
+	.port-item img{
+		display:block;
+		height:60%;
+		width:1500px;
+		
+	}
+	
+	
+	.port-desc
+	{
+	position:absolute;
+	z-index:100;
+	bottom:0;
+	left:4em;
+	right:4em;
+	color:white;
+	background:rgba(0,0,0,.5);
+	padding-bottom:1em;
+	}
+	
+	
+	@media(min-width:37rem){
+		.port-item{
+		height:50%;
+		width:50%;	
+		float:left;
+		}
+		}
+		
+		@media(min-width:60rem){
+		.port-item{
+		height:50%;
+		width:33.3333334%;	
+		float:left;
+		overflow:hidden;
+		}
+		.port-desc
+		{
+			transform:translateY(180%);
+		}
+		.port-item:hover .port-desc
+		{
+			transform:translateY(0%);
+		}
+		}
+		
+		
+		.title-cta
+		{
+			margin:0 0 0.5em;
+		}
+		
+		.cta
+		{
+			background-color:#00ff6c;
+			padding:5em 0;
+		}
+		
+		
+		
+		
+		
+		footer{
+			background:#232323;
+			color:#fff;
+			text-align:left;
+		}
+		
+		
+		.unstyled-list
+		{
+			margin:0;
+			padding:0;
+			list-style-type:none;
+		}
+		
+		.col1{
+			float:left;
+			width:16.666%;
+			padding:2em 1em 3em 3em;
+		}
+		
+		
+		.pushthistotheleft
+		{
+			padding-left:0;
+		}
+		
+		.col3
+		{
+			float:left;
+			width:50%;
+			padding:2em 1em 1em 0em;
+		}
+		
+		@media(min-width:45rem){
+		.col3{
+		
+		}
+		
